@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_aktionen"
+            android:icon="@drawable/aktionen_icon"
+            android:title="@string/nav_aktionen" />
+        <item
+            android:id="@+id/nav_was"
+            android:icon="@drawable/was_icon"
+            android:title="@string/nav_was" />
+
+        <item
+            android:id="@+id/nav_raeume"
+            android:icon="@drawable/raeume_icon"
+            android:title="@string/nav_raeume" />
+
+
+    </group>
+
+    <item android:title="Anderes">
+        <menu>
+
+            <item
+                android:id="@+id/nav_ueber"
+                android:icon="@drawable/ueber_icon"
+                android:title="@string/nav_ueber_app" />
+        </menu>
+    </item>
+
+</menu>
